@@ -14,10 +14,10 @@
 		FB5E7A191D110186005B080F /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB5E7A171D110186005B080F /* MainInterface.storyboard */; };
 		FB5E7A1B1D110186005B080F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB5E7A1A1D110186005B080F /* Assets.xcassets */; };
 		FB5E7A271D11035F005B080F /* NatureStickerBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5E7A261D11035F005B080F /* NatureStickerBrowserViewController.swift */; };
-		FB5E7A2C1D1104FE005B080F /* stick01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB5E7A281D1104FE005B080F /* stick01.jpg */; };
-		FB5E7A2E1D1104FE005B080F /* stick03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB5E7A2A1D1104FE005B080F /* stick03.jpg */; };
-		FB5E7A2F1D1104FE005B080F /* stick04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB5E7A2B1D1104FE005B080F /* stick04.jpg */; };
-		FB5E7A311D11096E005B080F /* stick02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB5E7A301D11096E005B080F /* stick02.jpg */; };
+		FB5E7A361D1111CD005B080F /* stick01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB5E7A321D1111CD005B080F /* stick01.jpg */; };
+		FB5E7A371D1111CD005B080F /* stick02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB5E7A331D1111CD005B080F /* stick02.jpg */; };
+		FB5E7A381D1111CD005B080F /* stick03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB5E7A341D1111CD005B080F /* stick03.jpg */; };
+		FB5E7A391D1111CD005B080F /* stick04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB5E7A351D1111CD005B080F /* stick04.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,10 +55,10 @@
 		FB5E7A1A1D110186005B080F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB5E7A1C1D110186005B080F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB5E7A261D11035F005B080F /* NatureStickerBrowserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NatureStickerBrowserViewController.swift; sourceTree = "<group>"; };
-		FB5E7A281D1104FE005B080F /* stick01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = stick01.jpg; path = ../../../Downloads/stick01.jpg; sourceTree = "<group>"; };
-		FB5E7A2A1D1104FE005B080F /* stick03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = stick03.jpg; path = ../../../Downloads/stick03.jpg; sourceTree = "<group>"; };
-		FB5E7A2B1D1104FE005B080F /* stick04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = stick04.jpg; path = ../../../Downloads/stick04.jpg; sourceTree = "<group>"; };
-		FB5E7A301D11096E005B080F /* stick02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = stick02.jpg; path = "../../../../../Volumes/VMware Shared Folders/Desktop/stick02.jpg"; sourceTree = "<group>"; };
+		FB5E7A321D1111CD005B080F /* stick01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = stick01.jpg; path = MessagesExtension/stick01.jpg; sourceTree = "<group>"; };
+		FB5E7A331D1111CD005B080F /* stick02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = stick02.jpg; path = MessagesExtension/stick02.jpg; sourceTree = "<group>"; };
+		FB5E7A341D1111CD005B080F /* stick03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = stick03.jpg; path = MessagesExtension/stick03.jpg; sourceTree = "<group>"; };
+		FB5E7A351D1111CD005B080F /* stick04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = stick04.jpg; path = MessagesExtension/stick04.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +76,7 @@
 		FB5E79FC1D110186005B080F = {
 			isa = PBXGroup;
 			children = (
+				FB5E7A3A1D1111D4005B080F /* Stickes */,
 				FB5E7A051D110186005B080F /* NatureStickes */,
 				FB5E7A141D110186005B080F /* MessagesExtension */,
 				FB5E7A111D110186005B080F /* Frameworks */,
@@ -114,15 +115,22 @@
 			children = (
 				FB5E7A151D110186005B080F /* MessagesViewController.swift */,
 				FB5E7A261D11035F005B080F /* NatureStickerBrowserViewController.swift */,
-				FB5E7A281D1104FE005B080F /* stick01.jpg */,
-				FB5E7A301D11096E005B080F /* stick02.jpg */,
-				FB5E7A2A1D1104FE005B080F /* stick03.jpg */,
-				FB5E7A2B1D1104FE005B080F /* stick04.jpg */,
 				FB5E7A171D110186005B080F /* MainInterface.storyboard */,
 				FB5E7A1A1D110186005B080F /* Assets.xcassets */,
 				FB5E7A1C1D110186005B080F /* Info.plist */,
 			);
 			path = MessagesExtension;
+			sourceTree = "<group>";
+		};
+		FB5E7A3A1D1111D4005B080F /* Stickes */ = {
+			isa = PBXGroup;
+			children = (
+				FB5E7A321D1111CD005B080F /* stick01.jpg */,
+				FB5E7A331D1111CD005B080F /* stick02.jpg */,
+				FB5E7A341D1111CD005B080F /* stick03.jpg */,
+				FB5E7A351D1111CD005B080F /* stick04.jpg */,
+			);
+			name = Stickes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,7 +218,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB5E7A391D1111CD005B080F /* stick04.jpg in Resources */,
+				FB5E7A371D1111CD005B080F /* stick02.jpg in Resources */,
 				FB5E7A071D110186005B080F /* Assets.xcassets in Resources */,
+				FB5E7A361D1111CD005B080F /* stick01.jpg in Resources */,
+				FB5E7A381D1111CD005B080F /* stick03.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,12 +230,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB5E7A2F1D1104FE005B080F /* stick04.jpg in Resources */,
-				FB5E7A2C1D1104FE005B080F /* stick01.jpg in Resources */,
-				FB5E7A2E1D1104FE005B080F /* stick03.jpg in Resources */,
 				FB5E7A1B1D110186005B080F /* Assets.xcassets in Resources */,
 				FB5E7A191D110186005B080F /* MainInterface.storyboard in Resources */,
-				FB5E7A311D11096E005B080F /* stick02.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +427,7 @@
 				FB5E7A211D110186005B080F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FB5E7A231D110186005B080F /* Build configuration list for PBXNativeTarget "NatureStickes" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +436,7 @@
 				FB5E7A251D110186005B080F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
