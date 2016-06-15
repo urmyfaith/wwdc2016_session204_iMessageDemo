@@ -13,6 +13,11 @@
 		FB5E7A161D110186005B080F /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5E7A151D110186005B080F /* MessagesViewController.swift */; };
 		FB5E7A191D110186005B080F /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB5E7A171D110186005B080F /* MainInterface.storyboard */; };
 		FB5E7A1B1D110186005B080F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB5E7A1A1D110186005B080F /* Assets.xcassets */; };
+		FB5E7A271D11035F005B080F /* NatureStickerBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5E7A261D11035F005B080F /* NatureStickerBrowserViewController.swift */; };
+		FB5E7A2C1D1104FE005B080F /* stick01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB5E7A281D1104FE005B080F /* stick01.jpg */; };
+		FB5E7A2E1D1104FE005B080F /* stick03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB5E7A2A1D1104FE005B080F /* stick03.jpg */; };
+		FB5E7A2F1D1104FE005B080F /* stick04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB5E7A2B1D1104FE005B080F /* stick04.jpg */; };
+		FB5E7A311D11096E005B080F /* stick02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB5E7A301D11096E005B080F /* stick02.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		FB5E7A181D110186005B080F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		FB5E7A1A1D110186005B080F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB5E7A1C1D110186005B080F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB5E7A261D11035F005B080F /* NatureStickerBrowserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NatureStickerBrowserViewController.swift; sourceTree = "<group>"; };
+		FB5E7A281D1104FE005B080F /* stick01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = stick01.jpg; path = ../../../Downloads/stick01.jpg; sourceTree = "<group>"; };
+		FB5E7A2A1D1104FE005B080F /* stick03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = stick03.jpg; path = ../../../Downloads/stick03.jpg; sourceTree = "<group>"; };
+		FB5E7A2B1D1104FE005B080F /* stick04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = stick04.jpg; path = ../../../Downloads/stick04.jpg; sourceTree = "<group>"; };
+		FB5E7A301D11096E005B080F /* stick02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = stick02.jpg; path = "../../../../../Volumes/VMware Shared Folders/Desktop/stick02.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +113,11 @@
 			isa = PBXGroup;
 			children = (
 				FB5E7A151D110186005B080F /* MessagesViewController.swift */,
+				FB5E7A261D11035F005B080F /* NatureStickerBrowserViewController.swift */,
+				FB5E7A281D1104FE005B080F /* stick01.jpg */,
+				FB5E7A301D11096E005B080F /* stick02.jpg */,
+				FB5E7A2A1D1104FE005B080F /* stick03.jpg */,
+				FB5E7A2B1D1104FE005B080F /* stick04.jpg */,
 				FB5E7A171D110186005B080F /* MainInterface.storyboard */,
 				FB5E7A1A1D110186005B080F /* Assets.xcassets */,
 				FB5E7A1C1D110186005B080F /* Info.plist */,
@@ -203,8 +218,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB5E7A2F1D1104FE005B080F /* stick04.jpg in Resources */,
+				FB5E7A2C1D1104FE005B080F /* stick01.jpg in Resources */,
+				FB5E7A2E1D1104FE005B080F /* stick03.jpg in Resources */,
 				FB5E7A1B1D110186005B080F /* Assets.xcassets in Resources */,
 				FB5E7A191D110186005B080F /* MainInterface.storyboard in Resources */,
+				FB5E7A311D11096E005B080F /* stick02.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,6 +234,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB5E7A271D11035F005B080F /* NatureStickerBrowserViewController.swift in Sources */,
 				FB5E7A161D110186005B080F /* MessagesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
